@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="JF26HqhS2CGegC7u0p3W">
-    <mxGraphModel>
+    <mxGraphModel dx="1352" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-3" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="START" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-5" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;roundedPerimeter=1;" value="Input projectedHours&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-16" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="Decision: projectedHours = 0" vertex="1">
+          <mxGeometry height="80" width="200" x="330" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-8" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-6" style="endArrow=classic;startArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;endFill=1;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="649.5" as="sourcePoint" />
+            <mxPoint x="640" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-14" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="DISPLAY: End of program" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-18" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=1;roundedPerimeter=1;" value="INPUT: wholesaleMaterialCost" vertex="1">
+          <mxGeometry height="60" width="200" x="330" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-20" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="serviceCharge = (projectHours * $30) + (wholeMaterialCost * .20)" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-22" edge="1" parent="1" source="pUx1RhwuB75A0Vvlyir9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="pUx1RhwuB75A0Vvlyir9-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-19" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="DISPLAY results" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;rounded=0;" value="Input projectedHours" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-23" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="NO" vertex="1">
+          <mxGeometry height="30" width="80" x="560" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-24" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="YES" vertex="1">
+          <mxGeometry height="30" width="80" x="440" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.725" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1230" />
+            </Array>
+            <mxPoint x="240" y="650" as="sourcePoint" />
+            <mxPoint x="380" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUx1RhwuB75A0Vvlyir9-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;endFill=1;" target="pUx1RhwuB75A0Vvlyir9-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="650" as="sourcePoint" />
+            <mxPoint x="290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
